@@ -1,0 +1,29 @@
+.media-heading {
+    align-items: flex-start;
+    flex-direction: column;
+}
+
+.media-text {
+    padding-left: 0;
+}
+
+.form-label {
+    text-align: center;
+}
+ 
+/* ///////// media queries /////////// */
+
+@media (min-width: 1440px) {
+    .media-heading {
+        flex-direction: row;
+        align-items: center;
+    }
+
+    .media-text {
+        padding-left: 1rem;
+    }
+
+    .form-label {
+        text-align: right;
+    }
+}
